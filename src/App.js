@@ -6,7 +6,7 @@ class Counter extends Component {
   constructor(props) {
     super(props);
     console.log(this.state);
-    this.state = { count: 1 };
+    this.state = { count: 2 };
   }
 
   handlePlusButton = () => {
